@@ -7,7 +7,93 @@
 		"abi": [
 			{
 				"inputs": [],
+				"name": "add",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_favoriteNumber",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					}
+				],
+				"name": "addPerson",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "favoriteNumber",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "people",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "favoriteNumber",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "person",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "favoriteNumber",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "retrieve",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -60,11 +146,11 @@
 	},
 	"sources": {
 		"contract/SimpleStorage.sol": {
-			"keccak256": "0x1bfd69aeb0c36a9652aa7e58d4b3aefcb93fb271f9a151edadea4af4aea04f6a",
+			"keccak256": "0x307dbca91e5e1ac09b3bdd5423e4794fcddfa523ab601608536a2598db1cba7a",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://c55b335119d83ae7e6364dcf979f7d5b99360a2fa6c540770facb3587b4c2b42",
-				"dweb:/ipfs/QmaDukKTKQeAPUzpkjiEA2Zgvos8aZ1uHXQFDCBfKiHdE6"
+				"bzz-raw://91696d2749e7520370a3899c3239612b1024e8cec6125ffe784239e90600bec3",
+				"dweb:/ipfs/QmZUgE7JcqgQc5AHoSPDY4B5c5zC8u1fAaCpHRvJh4XtHv"
 			]
 		}
 	},
